@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'social_django',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +40,18 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+SOCIAL_AUTH_TRAILING_SLASH = False                   
+SOCIAL_AUTH_AUTH0_DOMAIN = 'blastoffenterprise.auth0.com'
+SOCIAL_AUTH_AUTH0_KEY = '-dIx1SdhAJgXHwCRFmxEQr4av1vfsBvA'
+SOCIAL_AUTH_AUTH0_SECRET = 'M-2D379iixM_Y2mN4_6aVcQhUG7wBQ2J7EdEavZKZyYpmFm-K3DeCptiJeE12iQV'
+SOCIAL_AUTH_AUTH0_SCOPE = [
+    'openid',
+    'profile'
+]
+AUTHENTICATION_BACKENDS = {
+    'BlastOffEnterprise.auth0backend.Auth0',
+    'django.contrib.auth.backends.ModelBackend'
+}
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -98,7 +111,9 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+LOGIN_URL = "/login/auth0"
+LOGIN_REDIRECT_URL = "/dashboard"
+LOGOUT_REDIRECT_URL = "/"
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
