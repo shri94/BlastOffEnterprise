@@ -25,6 +25,7 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('admin/', admin.site.urls),
     path('dashboard/', views.dashboard, name='dashboard'),
+    path('search/', views.search, name='search'),
     url(r'^', include('django.contrib.auth.urls')),
     url(r'^', include('social_django.urls')),
 ]
