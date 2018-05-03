@@ -6,12 +6,14 @@ import json
 def dashboard(request):
     user = request.user
     auth0user = user.social_auth.filter(provider="auth0")[0]
+    if auth0user.extra_data['picture'] is None:
+        auth0user.extra_data['picture'] = "https://i.cloudup.com/StzWWrY34s.png"
     userdata = {
         'user_id' : auth0user.uid,
         'name': user.first_name,
-       # 'picture': auth0user.extra_data['picture']
+        'picture': auth0user.extra_data['picture']
     }
-
+    
     return render(request, 'dashboard.html', {
         'auth0User': auth0user,
         'userdata': json.dumps(userdata, indent=4)
@@ -20,8 +22,3 @@ def dashboard(request):
 def home(request):
     return render(request, 'home.html')
 
-def navbar(request):
-    return render(request, 'navbar.html')
-
-def search(request):
-    return render(request, 'search.html')
