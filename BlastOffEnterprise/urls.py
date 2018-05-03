@@ -15,11 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf.urls import url, include
-from django.urls import path
+from django.urls import path, include
+from django.views.generic.base import TemplateView
+
+from BlastOffEnterprise import views
 
 
 urlpatterns = [
+    path('', views.home, name='home'),
     path('admin/', admin.site.urls),
-    url(r'^userportal/', include('userportal.urls')),
-
+    url(r'^', include('django.contrib.auth.urls')),
+    url(r'^', include('social_django.urls')),
 ]

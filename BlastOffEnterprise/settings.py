@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social_django'
 ]
 
 MIDDLEWARE = [
@@ -49,12 +50,32 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+SOCIAL_AUTH_TRAILING_SLASH = False
+SOCIAL_AUTH_AUTH0_DOMAIN = 'teamrocket.auth0.com'
+SOCIAL_AUTH_AUTH0_KEY = 'g19eLHdkR9aJlTAbikWi70a24znUOQ4D'
+SOCIAL_AUTH_AUTH0_SECRET = 'gTdQxRRNk-2YQW0lEDodbiiCHs-k-MePtS6Rht_2HPM6x4_dq2nvh1Ih9dcGg5tD'
+
+
+SOCIAL_AUTH_AUTH0_SCOPE = [
+    'openid',
+    'profile'
+]
+
+AUTHENTICATION_BACKENDS = {
+   'BlastOffEnterprise.auth0backend.Auth0',
+   'django.contrib.auth.backends.ModelBackend'
+}
+
+LOGIN_URL = "/login/auth0"
+LOGIN_REDIRECT_URL = "/dashboard"
+LOGOUT_REDIRECT_URL = "/"
+
 ROOT_URLCONF = 'BlastOffEnterprise.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'Pages/Home')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
