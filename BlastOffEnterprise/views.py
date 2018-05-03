@@ -5,7 +5,7 @@ import json
 @login_required
 def dashboard(request):
     user = request.user
-    auth0user = user.social_auth.get(provider="auth0")
+    auth0user = user.social_auth.get(provider="auth0")[0]
     userdata = {
         'user_id' : auth0user.uid,
         'name': user.first_name,
