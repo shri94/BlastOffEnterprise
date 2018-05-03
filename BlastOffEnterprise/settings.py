@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,7 +26,7 @@ SECRET_KEY = '-m1n$hhz@3$mkt1$+aqu-4!(dff-=g_tgcq6=1*e-wid)u!d+9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-54-213-163-18.us-west-2.compute.amazonaws.com', 'localhost']
+ALLOWED_HOSTS = ['ec2-54-213-163-18.us-west-2.compute.amazonaws.com', 'localhost', '127.0.0.1:8000', '127.0.0.1']
 
 
 # Application definition
@@ -96,9 +97,16 @@ WSGI_APPLICATION = 'BlastOffEnterprise.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+       'ENGINE': 'django.db.backends.mysql',
+       'NAME': 'EMPLOYEES',
+       'USER': 'root',
+       'PASSWORD': '',
+       'HOST': 'localhost',
+       'PORT': '3306',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+
 }
 
 

@@ -24,6 +24,7 @@ from BlastOffEnterprise import views
 urlpatterns = [
     path('', views.home, name='home'),
     path('admin/', admin.site.urls),
+    path('dashboard/', views.dashboard, name='dashboard'),
     url(r'^', include('django.contrib.auth.urls')),
     url(r'^', include('social_django.urls')),
 ]
