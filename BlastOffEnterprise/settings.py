@@ -54,7 +54,7 @@ ROOT_URLCONF = 'BlastOffEnterprise.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'Pages/Home')],
+        'DIRS': [os.path.join(BASE_DIR, 'Pages')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
