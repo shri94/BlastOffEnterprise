@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from BlastOffEnterprise import models
 from django.core import serializers
+from .filter import EmployeeFilter
 import json
 
 @login_required
@@ -30,4 +31,8 @@ def navbar(request):
     return render(request, 'navbar.html')
 
 def search(request):
-    return render(request, 'search.html')
+    emp_list = models.Employees.objects.all()[:100]
+    emp_filter = EmployeeFilter(request.GET, queryset=emp_list)
+
+    return render(request, 'search.html', {'filter': emp_filter})
+

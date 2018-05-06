@@ -4,3 +4,4 @@ social-auth-app-django
 python-dotenv
 requests
 mysqlclient
+django_filter

@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social_django',
-    'BlastOffEnterprise'
+    'BlastOffEnterprise',
 ]
 
 MIDDLEWARE = [
@@ -101,7 +101,7 @@ DATABASES = {
        'ENGINE': 'django.db.backends.mysql',
        'NAME': 'EMPLOYEES',
        'USER': 'root',
-       'PASSWORD': '',
+       'PASSWORD': 'jayshree13',
        'HOST': 'localhost',
        'PORT': '3306',
         # 'ENGINE': 'django.db.backends.sqlite3',
