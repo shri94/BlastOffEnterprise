@@ -31,8 +31,23 @@ def navbar(request):
     return render(request, 'navbar.html')
 
 def search(request):
-    emp_list = models.Employees.objects.all()[:100]
+    emp_list = models.Employees.objects.all()
     emp_filter = EmployeeFilter(request.GET, queryset=emp_list)
 
     return render(request, 'search.html', {'filter': emp_filter})
+
+def empprofile(request, emp_no = None):
+    if models.Employees.objects.get(emp_no=emp_no):
+        employee = models.Employees.objects.get(emp_no=emp_no)
+        salary = models.Salaries.objects.filter(emp_no=emp_no)
+        department = models.Departments.objects.get(deptemp=emp_no)
+        salary_serialize = serializers.serialize("json", salary)
+        return render(request, 'employee.html', {
+            'employee': employee,
+            'salary': json.loads(salary_serialize),
+            'department': department
+            })
+    else:
+        return render('Employee Missing!')
+
 

@@ -101,7 +101,7 @@ DATABASES = {
        'ENGINE': 'django.db.backends.mysql',
        'NAME': 'EMPLOYEES',
        'USER': 'root',
-       'PASSWORD': 'jayshree13',
+       'PASSWORD': '',
        'HOST': 'localhost',
        'PORT': '3306',
         # 'ENGINE': 'django.db.backends.sqlite3',

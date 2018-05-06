@@ -28,4 +28,5 @@ urlpatterns = [
     path('search/', views.search, name='search'),
     url(r'^', include('django.contrib.auth.urls')),
     url(r'^', include('social_django.urls')),
+    url(r'empprofile/(\d+)', views.empprofile, name='empprofile')
 ]
