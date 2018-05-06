@@ -5,21 +5,62 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-theme.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
+	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
 		<h1> Employee Profile </h1>
-		<h3>{{employee.first_name}}, {{employee.last_name}}</h3>
+		<h3>{{employee.first_name}}, {{employee.last_name}} - {% for t in title %} {{t.fields.title}}| {%endfor%}</h3>
 		<div class="container">
 			<h3>Personal Information</h3>
+			<h4>Gender : {{employee.gender}}</h4>
+			<h4>Date of Birth : {{ employee.birth_date}}</h4>
+			<h4>Hired Date: {{ employee.hire_date}}</h4>
 		</div>
 		<div class="container">
 			<h3>Department</h3>
+			<h4>Department: {{department.dept_name}}</h4>
+			<h4>Manager(s):<br /> {% for man in managers %}
+				<a href= "{% url 'empprofile' man.pk %}"> {{man.first_name}} {{man.last_name}}</a> <br />
+				{%endfor%}
+			</h4>
 		</div>
 		<div class="container">
-			<h3>Salary</h3>
+			<h3>Salary History</h3>
+			<div class="card mb-3">
+				<div class="card-header">
+					<i class="fa fa-table"></i> Salary History Table</div>
+					<div class="card-body">
+						<div class="table-responsive">
+							<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" overflow="auto">
+								<thead>
+									<tr>
+										<th>Salary</th>
+										<th>From</th>
+										<th>To</th>
+									</tr>
+								</thead>
+								<tbody>
+									{% for s in salary %}
+									<tr>
+										<td scope="row">{{s.fields.salary}}  </td> 
+										<td scope="row">{{s.fields.from_date}} </td> 
+										<td scope="row">{{s.fields.to_date}} </td> 
+									</tr>
+									{% empty %}
+									<tr>
+										<td> Null </td>
+										<td> Null </td>
+										<td> Null </td>
+										{% endfor %}
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

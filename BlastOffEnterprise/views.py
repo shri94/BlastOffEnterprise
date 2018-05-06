@@ -42,10 +42,19 @@ def empprofile(request, emp_no = None):
         salary = models.Salaries.objects.filter(emp_no=emp_no)
         department = models.Departments.objects.get(deptemp=emp_no)
         salary_serialize = serializers.serialize("json", salary)
+        title = models.Titles.objects.filter(emp_no=emp_no)
+        title_serialize = serializers.serialize("json", title)
+        manager = models.Departments.objects.filter(deptemp = emp_no).values('deptmanager')
+        managers = []
+        for man in manager:
+            managers.append(models.Employees.objects.get(emp_no=man['deptmanager']))
+
         return render(request, 'employee.html', {
             'employee': employee,
             'salary': json.loads(salary_serialize),
-            'department': department
+            'department': department,
+            'title' : json.loads(title_serialize),
+            'managers': managers
             })
     else:
         return render('Employee Missing!')
