@@ -1,5 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
+from BlastOffEnterprise import models
+from django.core import serializers
 import json
 
 @login_required
@@ -11,10 +13,14 @@ def dashboard(request):
         'name': user.first_name,
        # 'picture': auth0user.extra_data['picture']
     }
+    
+    employeeq = models.Employees.objects.all()[:10]
+    employee_serialize =  serializers.serialize("json", employeeq)
 
     return render(request, 'dashboard.html', {
         'auth0User': auth0user,
-        'userdata': json.dumps(userdata, indent=4)
+        'userdata': json.dumps(userdata, indent=4),
+        'employeeq': json.loads(employee_serialize)
     })
 
 def home(request):

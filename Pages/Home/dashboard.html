@@ -10,6 +10,13 @@
     <img class="avatar" src="{{ auth0User.extra_data.picture }}"/>
     <h2>Welcome {{ user.username }}</h2>
     <pre>{{ userdata }}</pre>
+    <p> {% for employee in employeeq %}
+    	{{ employee.fields}} <br />
+    	{% empty %}
+    	Empty Query
+    	{% endfor %}
+
+    </p>
 </div>
 </body>
 </html>
