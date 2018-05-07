@@ -5,3 +5,9 @@ python-dotenv
 requests
 mysqlclient
 django_filter
+django-jenkins
+pep8
+pyflakes
+flake8
+pylint
+

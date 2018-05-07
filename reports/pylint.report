@@ -1,0 +1,733 @@
+************* Module django.contrib.admin.actions
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/actions.py:14: [R0914(too-many-locals), delete_selected] Too many local variables (16/15)
+************* Module django.contrib.admin.checks
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:849: [C0330(bad-continuation), ] Wrong continued indentation (remove 2 spaces).
+                    obj.list_display_links is not None):
+                  | ^
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:1: [C0302(too-many-lines), ] Too many lines in module (1021/500)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:43: [W0703(broad-except), check_dependencies] Catching too general exception Exception
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:88: [R1705(no-else-return), BaseModelAdminChecks._check_autocomplete_fields] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:143: [R1705(no-else-return), BaseModelAdminChecks._check_raw_id_fields] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:162: [R1705(no-else-return), BaseModelAdminChecks._check_raw_id_fields_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:204: [R1705(no-else-return), BaseModelAdminChecks._check_fieldsets] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:214: [R0911(too-many-return-statements), BaseModelAdminChecks._check_fieldsets_item] Too many return statements (7/6)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:254: [R1705(no-else-return), BaseModelAdminChecks._check_field_spec] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:276: [R1705(no-else-return), BaseModelAdminChecks._check_field_spec_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:293: [R1705(no-else-return), BaseModelAdminChecks._check_exclude] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:310: [R1705(no-else-return), BaseModelAdminChecks._check_form] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:318: [R1705(no-else-return), BaseModelAdminChecks._check_filter_vertical] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:328: [R1705(no-else-return), BaseModelAdminChecks._check_filter_horizontal] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:346: [R1705(no-else-return), BaseModelAdminChecks._check_filter_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:353: [R1705(no-else-return), BaseModelAdminChecks._check_radio_fields] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:372: [R1705(no-else-return), BaseModelAdminChecks._check_radio_fields_key] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:391: [R1705(no-else-return), BaseModelAdminChecks._check_radio_fields_value] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:403: [R1705(no-else-return), BaseModelAdminChecks._check_view_on_site_url] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:417: [R1705(no-else-return), BaseModelAdminChecks._check_prepopulated_fields] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:437: [R1705(no-else-return), BaseModelAdminChecks._check_prepopulated_fields_key] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:453: [R1705(no-else-return), BaseModelAdminChecks._check_prepopulated_fields_value] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:476: [R1705(no-else-return), BaseModelAdminChecks._check_ordering] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:520: [R1705(no-else-return), BaseModelAdminChecks._check_readonly_fields] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:575: [R1705(no-else-return), ModelAdminChecks._check_save_as] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:584: [R1705(no-else-return), ModelAdminChecks._check_save_on_top] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:593: [R1705(no-else-return), ModelAdminChecks._check_inlines] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:607: [R1705(no-else-return), ModelAdminChecks._check_inlines_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:632: [R1705(no-else-return), ModelAdminChecks._check_list_display] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:655: [R1705(no-else-return), ModelAdminChecks._check_list_display_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:640: [R0911(too-many-return-statements), ModelAdminChecks._check_list_display_item] Too many return statements (7/6)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:713: [R1705(no-else-return), ModelAdminChecks._check_list_display_links_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:727: [R1705(no-else-return), ModelAdminChecks._check_list_filter] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:748: [R1705(no-else-return), ModelAdminChecks._check_list_filter_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:765: [R1705(no-else-return), ModelAdminChecks._check_list_filter_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:735: [R0911(too-many-return-statements), ModelAdminChecks._check_list_filter_item] Too many return statements (7/6)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:790: [R1705(no-else-return), ModelAdminChecks._check_list_select_related] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:798: [R1705(no-else-return), ModelAdminChecks._check_list_per_page] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:806: [R1705(no-else-return), ModelAdminChecks._check_list_max_show_all] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:815: [R1705(no-else-return), ModelAdminChecks._check_list_editable] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:829: [R1705(no-else-return), ModelAdminChecks._check_list_editable_item] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:876: [R1705(no-else-return), ModelAdminChecks._check_search_fields] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:899: [R1705(no-else-return), ModelAdminChecks._check_date_hierarchy] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:907: [W0221(arguments-differ), InlineModelAdminChecks.check] Parameters differ from overridden 'check' method
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:933: [R1705(no-else-return), InlineModelAdminChecks._check_exclude_of_parent_model] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:958: [R1705(no-else-return), InlineModelAdminChecks._check_extra] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:966: [R1705(no-else-return), InlineModelAdminChecks._check_max_num] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:976: [R1705(no-else-return), InlineModelAdminChecks._check_min_num] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:986: [R1705(no-else-return), InlineModelAdminChecks._check_formset] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:992: [W0622(redefined-builtin), must_be] Redefining built-in 'type'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:992: [W0622(redefined-builtin), must_be] Redefining built-in 'id'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:1002: [W0622(redefined-builtin), must_inherit_from] Redefining built-in 'id'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/checks.py:1012: [W0622(redefined-builtin), refer_to_missing_field] Redefining built-in 'id'
+************* Module django.contrib.admin.filters
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/filters.py:115: [W0223(abstract-method), FieldListFilter] Method 'choices' is abstract in class 'ListFilter' but is not overridden
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/filters.py:115: [W0223(abstract-method), FieldListFilter] Method 'expected_parameters' is abstract in class 'ListFilter' but is not overridden
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/filters.py:160: [R0902(too-many-instance-attributes), RelatedFieldListFilter] Too many instance attributes (8/7)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/filters.py:393: [W0612(unused-variable), AllValuesFieldListFilter.__init__] Unused variable 'reverse_path'
+************* Module django.contrib.admin.helpers
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/helpers.py:262: [W0612(unused-variable), InlineAdminFormSet.fields] Unused variable 'i'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/helpers.py:349: [R1705(no-else-return), InlineAdminForm.fk_field] Unnecessary "else" after "return"
+************* Module django.contrib.admin.models
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/models.py:95: [R1705(no-else-return), LogEntry.get_change_message] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/models.py:95: [E1136(unsubscriptable-object), LogEntry.get_change_message] Value 'self.change_message' is unsubscriptable
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/models.py:132: [E1101(no-member), LogEntry.get_edited_object] Instance of 'ForeignKey' has no 'get_object_for_this_type' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/models.py:139: [E1101(no-member), LogEntry.get_admin_url] Instance of 'ForeignKey' has no 'app_label' member
+************* Module django.contrib.admin.options
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:350: [W0511(fixme), ] TODO: this should be handled by some parameter to the ChangeList.
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1064: [W0511(fixme), ] FIXME - this should check if form or formsets have a FileField,
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1: [C0302(too-many-lines), ] Too many lines in module (2022/500)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:161: [E1101(no-member), BaseModelAdmin.formfield_for_dbfield] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:170: [E1101(no-member), BaseModelAdmin.formfield_for_dbfield] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:209: [E1101(no-member), BaseModelAdmin.get_field_queryset] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:223: [E1101(no-member), BaseModelAdmin.formfield_for_foreignkey] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:225: [E1101(no-member), BaseModelAdmin.formfield_for_foreignkey] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:251: [E1101(no-member), BaseModelAdmin.formfield_for_manytomany] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:253: [E1101(no-member), BaseModelAdmin.formfield_for_manytomany] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:285: [E1102(not-callable), BaseModelAdmin.get_view_on_site_url] self.view_on_site is not callable
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:280: [R1710(inconsistent-return-statements), BaseModelAdmin.get_view_on_site_url] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:300: [E1101(no-member), BaseModelAdmin.get_empty_value_display] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:315: [E1101(no-member), BaseModelAdmin.get_fields] Instance of 'BaseModelAdmin' has no '_get_form_for_get_fields' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:349: [E1101(no-member), BaseModelAdmin.get_queryset] Instance of 'BaseModelAdmin' has no 'model' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:359: [E1101(no-member), BaseModelAdmin.lookup_allowed] Instance of 'BaseModelAdmin' has no 'model' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:396: [E1101(no-member), BaseModelAdmin.lookup_allowed] Instance of 'BaseModelAdmin' has no 'date_hierarchy' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:397: [E1101(no-member), BaseModelAdmin.lookup_allowed] Instance of 'BaseModelAdmin' has no 'list_filter' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:408: [W0631(undefined-loop-variable), BaseModelAdmin.lookup_allowed] Using possibly undefined loop variable 'part'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:356: [R0912(too-many-branches), BaseModelAdmin.lookup_allowed] Too many branches (13/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:416: [E1101(no-member), BaseModelAdmin.to_field_allowed] Instance of 'BaseModelAdmin' has no 'model' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:437: [E1101(no-member), BaseModelAdmin.to_field_allowed] Instance of 'BaseModelAdmin' has no 'admin_site' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:461: [E1101(no-member), BaseModelAdmin.has_add_permission] Instance of 'BaseModelAdmin' has no 'opts' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:476: [E1101(no-member), BaseModelAdmin.has_change_permission] Instance of 'BaseModelAdmin' has no 'opts' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:491: [E1101(no-member), BaseModelAdmin.has_delete_permission] Instance of 'BaseModelAdmin' has no 'opts' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:506: [E1101(no-member), BaseModelAdmin.has_module_permission] Instance of 'BaseModelAdmin' has no 'opts' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:652: [E1101(no-member), ModelAdmin.get_form] Class 'ModelForm' has no 'declared_fields' member
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:760: [W0622(redefined-builtin), ModelAdmin.log_addition] Redefining built-in 'object'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:776: [W0622(redefined-builtin), ModelAdmin.log_change] Redefining built-in 'object'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:792: [W0622(redefined-builtin), ModelAdmin.log_deletion] Redefining built-in 'object'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:852: [W0102(dangerous-default-value), ModelAdmin.get_action_choices] Dangerous default value BLANK_CHOICE_DASH (builtins.list) as argument
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:858: [W0612(unused-variable), ModelAdmin.get_action_choices] Unused variable 'func'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:906: [R1705(no-else-return), ModelAdmin.get_list_display_links] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:940: [R1705(no-else-return), ModelAdmin.get_search_results.construct_search] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1089: [R0914(too-many-locals), ModelAdmin.response_add] Too many local variables (16/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1199: [R1705(no-else-return), ModelAdmin.response_change] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1335: [R1705(no-else-return), ModelAdmin.response_action] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1452: [R0914(too-many-locals), ModelAdmin._changeform_view] Too many local variables (24/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1493: [R1705(no-else-return), ModelAdmin._changeform_view] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1452: [R0912(too-many-branches), ModelAdmin._changeform_view] Too many branches (18/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1452: [R0915(too-many-statements), ModelAdmin._changeform_view] Too many statements (55/50)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1559: [R0914(too-many-locals), ModelAdmin.changelist_view] Too many local variables (23/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1559: [R0911(too-many-return-statements), ModelAdmin.changelist_view] Too many return statements (7/6)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1559: [R0912(too-many-branches), ModelAdmin.changelist_view] Too many branches (23/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1559: [R0915(too-many-statements), ModelAdmin.changelist_view] Too many statements (63/50)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1715: [R0914(too-many-locals), ModelAdmin._delete_view] Too many local variables (20/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:509: [R0904(too-many-public-methods), ModelAdmin] Too many public methods (51/50)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/options.py:1885: [E1135(unsupported-membership-test), InlineModelAdmin.media] Value 'self.classes' doesn't support membership test
+************* Module django.contrib.admin.sites
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/sites.py:1: [C0302(too-many-lines), ] Too many lines in module (525/500)
+************* Module django.contrib.admin.tests
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:33: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_until] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:33: [E0401(import-error), AdminSeleniumTestCase.wait_until] Unable to import 'selenium.webdriver.support.wait'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:47: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_for] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:47: [E0401(import-error), AdminSeleniumTestCase.wait_for] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:48: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_for] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:48: [E0401(import-error), AdminSeleniumTestCase.wait_for] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:58: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_for_text] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:58: [E0401(import-error), AdminSeleniumTestCase.wait_for_text] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:59: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_for_text] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:59: [E0401(import-error), AdminSeleniumTestCase.wait_for_text] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:70: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_for_value] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:70: [E0401(import-error), AdminSeleniumTestCase.wait_for_value] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:71: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_for_value] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:71: [E0401(import-error), AdminSeleniumTestCase.wait_for_value] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:82: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_until_visible] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:82: [E0401(import-error), AdminSeleniumTestCase.wait_until_visible] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:83: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_until_visible] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:83: [E0401(import-error), AdminSeleniumTestCase.wait_until_visible] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:93: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_until_invisible] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:93: [E0401(import-error), AdminSeleniumTestCase.wait_until_invisible] Unable to import 'selenium.webdriver.common.by'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:94: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_until_invisible] No name 'webdriver' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:94: [E0401(import-error), AdminSeleniumTestCase.wait_until_invisible] Unable to import 'selenium.webdriver.support'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:104: [E0611(no-name-in-module), AdminSeleniumTestCase.wait_page_loaded] No name 'common' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:104: [E0401(import-error), AdminSeleniumTestCase.wait_page_loaded] Unable to import 'selenium.common.exceptions'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:141: [E0611(no-name-in-module), AdminSeleniumTestCase.get_select_option] No name 'common' in module 'selenium'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:141: [E0401(import-error), AdminSeleniumTestCase.get_select_option] Unable to import 'selenium.common.exceptions'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/tests.py:161: [C1801(len-as-condition), AdminSeleniumTestCase._assertOptionsValues.<lambda>] Do not use `len(SEQUENCE)` to determine if a sequence is empty
+************* Module django.contrib.admin.utils
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:1: [C0302(too-many-lines), ] Too many lines in module (531/500)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:73: [C0200(consider-using-enumerate), quote] Consider using enumerate instead of iterating with range and len
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:84: [W0622(redefined-builtin), unquote] Redefining built-in 'list'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:115: [W0612(unused-variable), flatten_fieldsets] Unused variable 'name'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:183: [W0221(arguments-differ), NestedObjects.collect] Parameters differ from overridden 'collect' method
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:228: [W0221(arguments-differ), NestedObjects.can_fast_delete] Parameters differ from overridden 'can_fast_delete' method
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:370: [R1705(no-else-return), label_for_field] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:320: [R0912(too-many-branches), label_for_field] Too many branches (18/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:391: [R1705(no-else-return), display_for_field] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:388: [R0911(too-many-return-statements), display_for_field] Too many return statements (9/6)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:416: [R1705(no-else-return), display_for_value] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/utils.py:413: [R0911(too-many-return-statements), display_for_value] Too many return statements (7/6)
+************* Module django.contrib.admin.widgets
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:257: [W0511(fixme), ] XXX: The UX does not support multiple selected values.
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:260: [W0511(fixme), ] XXX: The deletion UX can be confusing when dealing with cascading deletion.
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:65: [W0622(redefined-builtin), AdminDateWidget.__init__] Redefining built-in 'format'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:84: [W0622(redefined-builtin), AdminTimeWidget.__init__] Redefining built-in 'format'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:101: [W0233(non-parent-init-called), AdminSplitDateTime.__init__] __init__ method from a non direct base class 'MultiWidget' is called
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:97: [W0231(super-init-not-called), AdminSplitDateTime.__init__] __init__ method from base class 'SplitDateTimeWidget' is not called
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:131: [R1706(consider-using-ternary), url_params_from_lookup_dict] Consider using ternary ('1' if v else '0')
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:229: [R1710(inconsistent-return-statements), ManyToManyRawIdWidget.value_from_datadict] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:238: [R0902(too-many-instance-attributes), RelatedFieldWidgetWrapper] Too many instance attributes (9/7)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/widgets.py:245: [W0231(super-init-not-called), RelatedFieldWidgetWrapper.__init__] __init__ method from base class 'Widget' is not called
+************* Module django.contrib.admin.templatetags.admin_list
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:32: [R1705(no-else-return), paginator_number] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:129: [W0622(redefined-builtin), result_headers] Redefining built-in 'sorted'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:90: [R0914(too-many-locals), result_headers] Too many local variables (19/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:187: [R1705(no-else-return), _coerce_field_name] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:194: [R0914(too-many-locals), items_for_result] Too many local variables (21/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:194: [R0912(too-many-branches), items_for_result] Too many branches (21/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:194: [R0915(too-many-statements), items_for_result] Too many statements (57/50)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:307: [W0612(unused-variable), result_hidden_fields] Unused variable 'res'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:357: [R1705(no-else-return), date_hierarchy] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_list.py:330: [R1710(inconsistent-return-statements), date_hierarchy] Either all return statements in a function should return an expression, or none of them should.
+************* Module django.contrib.admin.templatetags.admin_modify
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/templatetags/admin_modify.py:76: [W0612(unused-variable), cell_count] Unused variable 'field'
+************* Module django.contrib.admin.views.autocomplete
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/autocomplete.py:38: [W0221(arguments-differ), AutocompleteJsonView.get_paginator] Parameters differ from overridden 'get_paginator' method
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/autocomplete.py:26: [W0201(attribute-defined-outside-init), AutocompleteJsonView.get] Attribute 'term' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/autocomplete.py:28: [W0201(attribute-defined-outside-init), AutocompleteJsonView.get] Attribute 'object_list' defined outside __init__
+************* Module django.contrib.admin.views.main
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/main.py:35: [R0902(too-many-instance-attributes), ChangeList] Too many instance attributes (35/7)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/main.py:36: [R0913(too-many-arguments), ChangeList.__init__] Too many arguments (13/10)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/main.py:36: [R0914(too-many-locals), ChangeList.__init__] Too many local variables (16/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/main.py:99: [R0912(too-many-branches), ChangeList.get_filters] Too many branches (13/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/main.py:252: [W0612(unused-variable), ChangeList.get_ordering] Unused variable 'none'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/main.py:309: [W0612(unused-variable), ChangeList.get_ordering_field_columns] Unused variable 'none'
+/usr/local/lib/python3.6/site-packages/django/contrib/admin/views/main.py:357: [R1705(no-else-return), ChangeList.get_queryset] Unnecessary "else" after "return"
+************* Module django.contrib.auth
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/__init__.py:89: [W1505(deprecated-method), _authenticate_with_backend] Using deprecated method getcallargs()
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/__init__.py:95: [W1505(deprecated-method), _authenticate_with_backend] Using deprecated method getcallargs()
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/__init__.py:99: [W1505(deprecated-method), _authenticate_with_backend] Using deprecated method getcallargs()
+************* Module django.contrib.auth.admin
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/admin.py:130: [W0622(redefined-builtin), UserAdmin.user_change_password] Redefining built-in 'id'
+************* Module django.contrib.auth.backends
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/backends.py:12: [R1710(inconsistent-return-statements), ModelBackend.authenticate] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/backends.py:127: [W0221(arguments-differ), RemoteUserBackend.authenticate] Parameters differ from overridden 'authenticate' method
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/backends.py:127: [R1710(inconsistent-return-statements), RemoteUserBackend.authenticate] Either all return statements in a function should return an expression, or none of them should.
+************* Module django.contrib.auth.base_user
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py:64: [E1101(no-member), AbstractBaseUser.get_username] Instance of 'AbstractBaseUser' has no 'USERNAME_FIELD' member
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py:70: [E1101(no-member), AbstractBaseUser.clean] Instance of 'AbstractBaseUser' has no 'USERNAME_FIELD' member
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/base_user.py:72: [W0221(arguments-differ), AbstractBaseUser.save] Parameters differ from overridden 'save' method
+************* Module django.contrib.auth.forms
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/forms.py:176: [W1113(keyword-arg-before-vararg), AuthenticationForm.__init__] Keyword argument before variable positional arguments list in the definition of __init__ function
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/forms.py:266: [R0914(too-many-locals), PasswordResetForm.save] Too many local variables (17/15)
+************* Module django.contrib.auth.hashers
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:334: [C0330(bad-continuation), ] Wrong continued indentation (remove 3 spaces).
+            salt, data) = self._decode(encoded)
+         |  ^
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:349: [C0330(bad-continuation), ] Wrong continued indentation (remove 3 spaces).
+            salt, data) = self._decode(encoded)
+         |  ^
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:1: [C0302(too-many-lines), ] Too many lines in module (643/500)
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:152: [W0622(redefined-builtin), mask_hash] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:177: [W0612(unused-variable), BasePasswordHasher._load_library] Unused variable 'name'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:249: [W0622(redefined-builtin), PBKDF2PasswordHasher.encode] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:244: [W0221(arguments-differ), PBKDF2PasswordHasher.encode] Parameters differ from overridden 'encode' method
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:254: [W0622(redefined-builtin), PBKDF2PasswordHasher.verify] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:254: [W0612(unused-variable), PBKDF2PasswordHasher.verify] Unused variable 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:260: [W0622(redefined-builtin), PBKDF2PasswordHasher.safe_summary] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:270: [W0622(redefined-builtin), PBKDF2PasswordHasher.must_update] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:270: [W0612(unused-variable), PBKDF2PasswordHasher.must_update] Unused variable 'algorithm'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:270: [W0612(unused-variable), PBKDF2PasswordHasher.must_update] Unused variable 'salt'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:270: [W0612(unused-variable), PBKDF2PasswordHasher.must_update] Unused variable 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:274: [W0622(redefined-builtin), PBKDF2PasswordHasher.harden_runtime] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:274: [W0612(unused-variable), PBKDF2PasswordHasher.harden_runtime] Unused variable 'algorithm'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:274: [W0612(unused-variable), PBKDF2PasswordHasher.harden_runtime] Unused variable 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:348: [W0612(unused-variable), Argon2PasswordHasher.must_update] Unused variable 'variety'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:349: [W0612(unused-variable), Argon2PasswordHasher.must_update] Unused variable 'salt'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:349: [W0612(unused-variable), Argon2PasswordHasher.must_update] Unused variable 'data'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:430: [W0612(unused-variable), BCryptSHA256PasswordHasher.safe_summary] Unused variable 'empty'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:430: [W0612(unused-variable), BCryptSHA256PasswordHasher.safe_summary] Unused variable 'algostr'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:441: [W0612(unused-variable), BCryptSHA256PasswordHasher.must_update] Unused variable 'algorithm'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:441: [W0612(unused-variable), BCryptSHA256PasswordHasher.must_update] Unused variable 'empty'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:441: [W0612(unused-variable), BCryptSHA256PasswordHasher.must_update] Unused variable 'algostr'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:441: [W0612(unused-variable), BCryptSHA256PasswordHasher.must_update] Unused variable 'data'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:483: [W0622(redefined-builtin), SHA1PasswordHasher.encode] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:487: [W0622(redefined-builtin), SHA1PasswordHasher.verify] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:487: [W0612(unused-variable), SHA1PasswordHasher.verify] Unused variable 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:493: [W0622(redefined-builtin), SHA1PasswordHasher.safe_summary] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:514: [W0622(redefined-builtin), MD5PasswordHasher.encode] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:518: [W0622(redefined-builtin), MD5PasswordHasher.verify] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:518: [W0612(unused-variable), MD5PasswordHasher.verify] Unused variable 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:524: [W0622(redefined-builtin), MD5PasswordHasher.safe_summary] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:552: [W0622(redefined-builtin), UnsaltedSHA1PasswordHasher.encode] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:561: [W0622(redefined-builtin), UnsaltedSHA1PasswordHasher.safe_summary] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/hashers.py:629: [W0612(unused-variable), CryptPasswordHasher.verify] Unused variable 'salt'
+************* Module django.contrib.auth.models
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py:74: [E1101(no-member), Permission.__str__] Instance of 'ForeignKey' has no 'app_label' member
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/models.py:80: [E1101(no-member), Permission.natural_key] Instance of 'ForeignKey' has no 'natural_key' member
+************* Module django.contrib.auth.password_validation
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/password_validation.py:62: [W0621(redefined-outer-name), password_changed] Redefining name 'password_changed' from outer scope (line 54)
+************* Module django.contrib.auth.tokens
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/tokens.py:31: [W0622(redefined-builtin), PasswordResetTokenGenerator.check_token] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/tokens.py:31: [W0612(unused-variable), PasswordResetTokenGenerator.check_token] Unused variable 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/tokens.py:62: [W0622(redefined-builtin), PasswordResetTokenGenerator._make_token_with_timestamp] Redefining built-in 'hash'
+************* Module django.contrib.auth.views
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:1: [C0302(too-many-lines), ] Too many lines in module (596/500)
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:222: [W0622(redefined-builtin), redirect_to_login] Redefining built-in 'next'
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:245: [R0913(too-many-arguments), password_reset] Too many arguments (11/10)
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:405: [W0221(arguments-differ), PasswordResetView.dispatch] Parameters differ from overridden 'dispatch' method
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:443: [W0221(arguments-differ), PasswordResetConfirmView.dispatch] Parameters differ from overridden 'dispatch' method
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:446: [W0201(attribute-defined-outside-init), PasswordResetConfirmView.dispatch] Attribute 'validlink' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:455: [W0201(attribute-defined-outside-init), PasswordResetConfirmView.dispatch] Attribute 'validlink' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:447: [W0201(attribute-defined-outside-init), PasswordResetConfirmView.dispatch] Attribute 'user' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:574: [W0221(arguments-differ), PasswordChangeView.dispatch] Parameters differ from overridden 'dispatch' method
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/views.py:595: [W0221(arguments-differ), PasswordChangeDoneView.dispatch] Parameters differ from overridden 'dispatch' method
+************* Module django.contrib.auth.management
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/management/__init__.py:36: [R0914(too-many-locals), create_permissions] Too many local variables (16/15)
+************* Module django.contrib.auth.management.commands.createsuperuser
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/management/commands/createsuperuser.py:61: [R0914(too-many-locals), Command.handle] Too many local variables (20/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/management/commands/createsuperuser.py:61: [R0912(too-many-branches), Command.handle] Too many branches (25/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/management/commands/createsuperuser.py:61: [R0915(too-many-statements), Command.handle] Too many statements (75/50)
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/management/commands/createsuperuser.py:58: [W0201(attribute-defined-outside-init), Command.execute] Attribute 'stdin' defined outside __init__
+************* Module django.contrib.auth.migrations.0001_initial
+/usr/local/lib/python3.6/site-packages/django/contrib/auth/migrations/0001_initial.py:93: [C0330(bad-continuation), ] Wrong continued indentation (remove 1 space).
+                 ),
+                |^
+************* Module django.contrib.contenttypes.admin
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/admin.py:28: [R1705(no-else-return), GenericInlineModelAdminChecks._check_relation] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/admin.py:28: [C1801(len-as-condition), GenericInlineModelAdminChecks._check_relation] Do not use `len(SEQUENCE)` to determine if a sequence is empty
+************* Module django.contrib.contenttypes.fields
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:1: [C0302(too-many-lines), ] Too many lines in module (683/500)
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:18: [R0902(too-many-instance-attributes), GenericForeignKey] Too many instance attributes (8/7)
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:82: [R1705(no-else-return), GenericForeignKey._check_field_name] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:127: [R1705(no-else-return), GenericForeignKey._check_content_type_field] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:161: [W0622(redefined-builtin), GenericForeignKey.get_content_type] Redefining built-in 'id'
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:200: [R1705(no-else-return), GenericForeignKey.get_prefetch_queryset.gfk_key] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:50: [W0201(attribute-defined-outside-init), GenericForeignKey.contribute_to_class] Attribute 'name' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:51: [W0201(attribute-defined-outside-init), GenericForeignKey.contribute_to_class] Attribute 'model' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:342: [R1705(no-else-return), GenericRelation._check_generic_foreign_key_existence] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:344: [R1705(no-else-return), GenericRelation._check_generic_foreign_key_existence] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:407: [R1705(no-else-return), GenericRelation.get_path_info] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:438: [W0221(arguments-differ), GenericRelation.contribute_to_class] Parameters differ from overridden 'contribute_to_class' method
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:468: [W0221(arguments-differ), GenericRelation.get_extra_restriction] Parameters differ from overridden 'get_extra_restriction' method
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:441: [W0201(attribute-defined-outside-init), GenericRelation.contribute_to_class] Attribute 'model' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/fields.py:515: [R0902(too-many-instance-attributes), create_generic_related_manager.GenericRelatedObjectManager] Too many instance attributes (8/7)
+************* Module django.contrib.contenttypes.forms
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:18: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'ct_field' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:18: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'ct_fk_field' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:26: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'ct_field' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:27: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'for_concrete_model' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:28: [E1101(no-member), BaseGenericInlineFormSet.__init__] Instance of 'BaseGenericInlineFormSet' has no 'ct_fk_field' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:37: [E1101(no-member), BaseGenericInlineFormSet.get_default_prefix] Class 'BaseGenericInlineFormSet' has no 'ct_field' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:37: [E1101(no-member), BaseGenericInlineFormSet.get_default_prefix] Class 'BaseGenericInlineFormSet' has no 'ct_fk_field' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:41: [E1101(no-member), BaseGenericInlineFormSet.save_new] Instance of 'BaseGenericInlineFormSet' has no 'ct_field' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:42: [E1101(no-member), BaseGenericInlineFormSet.save_new] Instance of 'BaseGenericInlineFormSet' has no 'ct_fk_field' member
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:46: [R0913(too-many-arguments), generic_inlineformset_factory] Too many arguments (16/10)
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/forms.py:46: [R0914(too-many-locals), generic_inlineformset_factory] Too many local variables (18/15)
+************* Module django.contrib.contenttypes.models
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/models.py:55: [W0612(unused-variable), ContentTypeManager.get_for_model] Unused variable 'created'
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/models.py:62: [W0621(redefined-outer-name), ContentTypeManager.get_for_models] Redefining name 'models' from outer scope (line 4)
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/models.py:105: [W0622(redefined-builtin), ContentTypeManager.get_for_id] Redefining built-in 'id'
+************* Module django.contrib.contenttypes.views
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/views.py:91: [R1705(no-else-return), shortcut] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/views.py:9: [R0912(too-many-branches), shortcut] Too many branches (20/12)
+************* Module django.contrib.contenttypes.management.commands.remove_stale_contenttypes
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:22: [W0221(arguments-differ), Command.handle] Parameters differ from overridden 'handle' method
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:22: [R0914(too-many-locals), Command.handle] Too many local variables (18/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:27: [R1702(too-many-nested-blocks), Command.handle] Too many nested blocks (6/5)
+/usr/local/lib/python3.6/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:77: [W0221(arguments-differ), NoFastDeleteCollector.can_fast_delete] Parameters differ from overridden 'can_fast_delete' method
+************* Module django.contrib.sessions.middleware
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/middleware.py:13: [W0231(super-init-not-called), SessionMiddleware.__init__] __init__ method from base class 'MiddlewareMixin' is not called
+************* Module django.contrib.sessions.backends.base
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:74: [R1705(no-else-return), SessionBase.setdefault] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:97: [W0622(redefined-builtin), SessionBase.encode] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:104: [W0622(redefined-builtin), SessionBase.decode] Redefining built-in 'hash'
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:110: [W0703(broad-except), SessionBase.decode] Catching too general exception Exception
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:138: [W0201(attribute-defined-outside-init), SessionBase.clear] Attribute '_session_cache' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:194: [W0201(attribute-defined-outside-init), SessionBase._get_session] Attribute '_session_cache' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:196: [W0201(attribute-defined-outside-init), SessionBase._get_session] Attribute '_session_cache' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:301: [W0201(attribute-defined-outside-init), SessionBase.cycle_key] Attribute '_session_cache' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:177: [W0201(attribute-defined-outside-init), SessionBase._set_session_key] Attribute '__session_key' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py:179: [W0201(attribute-defined-outside-init), SessionBase._set_session_key] Attribute '__session_key' defined outside __init__
+************* Module django.contrib.sessions.backends.cache
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py:27: [W0703(broad-except), SessionStore.load] Catching too general exception Exception
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py:42: [W0612(unused-variable), SessionStore.create] Unused variable 'i'
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py:54: [R1710(inconsistent-return-statements), SessionStore.save] Either all return statements in a function should return an expression, or none of them should.
+************* Module django.contrib.sessions.backends.cached_db
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/cached_db.py:33: [W0703(broad-except), SessionStore.load] Catching too general exception Exception
+************* Module django.contrib.sessions.backends.db
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py:16: [W0235(useless-super-delegation), SessionStore.__init__] Useless super delegation in method '__init__'
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/db.py:72: [R1710(inconsistent-return-statements), SessionStore.save] Either all return statements in a function should return an expression, or none of them should.
+************* Module django.contrib.sessions.backends.file
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/file.py:156: [W0622(redefined-builtin), SessionStore.save] Redefining built-in 'dir'
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/file.py:117: [R1710(inconsistent-return-statements), SessionStore.save] Either all return statements in a function should return an expression, or none of them should.
+************* Module django.contrib.sessions.backends.signed_cookies
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/signed_cookies.py:22: [W0703(broad-except), SessionStore.load] Catching too general exception Exception
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/backends/signed_cookies.py:59: [W0201(attribute-defined-outside-init), SessionStore.delete] Attribute '_session_cache' defined outside __init__
+************* Module django.contrib.sessions.management.commands.clearsessions
+/usr/local/lib/python3.6/site-packages/django/contrib/sessions/management/commands/clearsessions.py:13: [W0221(arguments-differ), Command.handle] Parameters differ from overridden 'handle' method
+************* Module django.contrib.messages
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/__init__.py:1: [W0401(wildcard-import), ] Wildcard import django.contrib.messages.api
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/__init__.py:2: [W0401(wildcard-import), ] Wildcard import django.contrib.messages.constants
+************* Module django.contrib.messages.storage.base
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py:78: [W0612(unused-variable), BaseStorage._loaded_messages] Unused variable 'all_retrieved'
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py:115: [R1710(inconsistent-return-statements), BaseStorage.update] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py:79: [W0201(attribute-defined-outside-init), BaseStorage._loaded_messages] Attribute '_loaded_data' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py:155: [W0201(attribute-defined-outside-init), BaseStorage._get_level] Attribute '_level' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/base.py:168: [W0201(attribute-defined-outside-init), BaseStorage._set_level] Attribute '_level' defined outside __init__
+************* Module django.contrib.messages.storage.cookie
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/cookie.py:16: [W0221(arguments-differ), MessageEncoder.default] Parameters differ from overridden 'default' method
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/cookie.py:16: [E0202(method-hidden), MessageEncoder.default] An attribute defined in json.encoder line 158 hides this method
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/cookie.py:47: [W0221(arguments-differ), MessageDecoder.decode] Parameters differ from overridden 'decode' method
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/cookie.py:93: [W1113(keyword-arg-before-vararg), CookieStorage._store] Keyword argument before variable positional arguments list in the definition of _store function
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/cookie.py:93: [W0221(arguments-differ), CookieStorage._store] Parameters differ from overridden '_store' method
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/cookie.py:130: [R1710(inconsistent-return-statements), CookieStorage._encode] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/messages/storage/cookie.py:154: [W0622(redefined-builtin), CookieStorage._decode] Redefining built-in 'hash'
+************* Module django.contrib.staticfiles.finders
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:31: [W0622(redefined-builtin), BaseFinder.find] Redefining built-in 'all'
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:53: [W1113(keyword-arg-before-vararg), FileSystemFinder.__init__] Keyword argument before variable positional arguments list in the definition of __init__ function
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:90: [W0622(redefined-builtin), FileSystemFinder.find] Redefining built-in 'all'
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:105: [R1710(inconsistent-return-statements), FileSystemFinder.find_location] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:123: [W0612(unused-variable), FileSystemFinder.list] Unused variable 'prefix'
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:129: [W0223(abstract-method), AppDirectoriesFinder] Method 'check' is abstract in class 'BaseFinder' but is not overridden
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:137: [W1113(keyword-arg-before-vararg), AppDirectoriesFinder.__init__] Keyword argument before variable positional arguments list in the definition of __init__ function
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:164: [W0622(redefined-builtin), AppDirectoriesFinder.find] Redefining built-in 'all'
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:180: [R1710(inconsistent-return-statements), AppDirectoriesFinder.find_in_app] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:193: [W0223(abstract-method), BaseStorageFinder] Method 'check' is abstract in class 'BaseFinder' but is not overridden
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:200: [W1113(keyword-arg-before-vararg), BaseStorageFinder.__init__] Keyword argument before variable positional arguments list in the definition of __init__ function
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:212: [W0622(redefined-builtin), BaseStorageFinder.find] Redefining built-in 'all'
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:238: [W0223(abstract-method), DefaultStorageFinder] Method 'check' is abstract in class 'BaseFinder' but is not overridden
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/finders.py:253: [W0622(redefined-builtin), find] Redefining built-in 'all'
+************* Module django.contrib.staticfiles.storage
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py:28: [W1113(keyword-arg-before-vararg), StaticFilesStorage.__init__] Keyword argument before variable positional arguments list in the definition of __init__ function
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py:244: [W0612(unused-variable), HashedFilesMixin.post_process] Unused variable 'i'
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py:259: [R0914(too-many-locals), HashedFilesMixin._post_process] Too many local variables (26/15)
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py:259: [R0912(too-many-branches), HashedFilesMixin._post_process] Too many branches (14/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py:356: [W0612(unused-variable), HashedFilesMixin.stored_name] Unused variable 'i'
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/storage.py:403: [W0221(arguments-differ), ManifestFilesMixin.post_process] Parameters differ from overridden 'post_process' method
+************* Module django.contrib.staticfiles.utils
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/utils.py:35: [W0622(redefined-builtin), get_files] Redefining built-in 'dir'
+************* Module django.contrib.staticfiles.management.commands.collectstatic
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:273: [C0325(superfluous-parens), ] Unnecessary parens after 'not' keyword
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:13: [R0902(too-many-instance-attributes), Command] Too many instance attributes (13/7)
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:86: [R0912(too-many-branches), Command.collect] Too many branches (15/12)
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:149: [W0221(arguments-differ), Command.handle] Parameters differ from overridden 'handle' method
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:149: [R1710(inconsistent-return-statements), Command.handle] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:297: [R1710(inconsistent-return-statements), Command.link_file] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:336: [R1710(inconsistent-return-statements), Command.copy_file] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:75: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'interactive' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:76: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'verbosity' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:77: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'symlink' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:78: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'clear' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:79: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'dry_run' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:83: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'ignore_patterns' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py:84: [W0201(attribute-defined-outside-init), Command.set_options] Attribute 'post_process' defined outside __init__
+************* Module django.contrib.staticfiles.management.commands.findstatic
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/findstatic.py:18: [W0221(arguments-differ), Command.handle_label] Parameters differ from overridden 'handle_label' method
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/findstatic.py:32: [R1705(no-else-return), Command.handle_label] Unnecessary "else" after "return"
+/usr/local/lib/python3.6/site-packages/django/contrib/staticfiles/management/commands/findstatic.py:18: [R1710(inconsistent-return-statements), Command.handle_label] Either all return statements in a function should return an expression, or none of them should.
+************* Module social_django
+/usr/local/lib/python3.6/site-packages/social_django/__init__.py:13: [W1113(keyword-arg-before-vararg), baseauth_init_workaround.fake_init] Keyword argument before variable positional arguments list in the definition of fake_init function
+************* Module social_django.admin
+/usr/local/lib/python3.6/site-packages/social_django/admin.py:30: [C0330(bad-continuation), ] Wrong continued indentation (remove 3 spaces).
+                                if name and name in all_names]
+                             |  ^
+/usr/local/lib/python3.6/site-packages/social_django/admin.py:38: [C0330(bad-continuation), ] Wrong hanging indentation (remove 4 spaces).
+                if hasattr(field, 'attname') else (field.name,)
+            |   ^
+************* Module social_django.compat
+/usr/local/lib/python3.6/site-packages/social_django/compat.py:25: [E1101(no-member), get_rel_model] Module 'django.db.models' has no 'get_model' member
+/usr/local/lib/python3.6/site-packages/social_django/compat.py:8: [W0611(unused-import), ] Unused reverse imported from django.urls
+/usr/local/lib/python3.6/site-packages/social_django/compat.py:13: [W0611(unused-import), ] Unused MiddlewareMixin imported from django.utils.deprecation
+************* Module social_django.context_processors
+/usr/local/lib/python3.6/site-packages/social_django/context_processors.py:39: [R1706(consider-using-ternary), login_redirect] Consider using ternary (request.POST.get(REDIRECT_FIELD_NAME) if request.method == 'POST' else request.GET.get(REDIRECT_FIELD_NAME))
+************* Module social_django.fields
+/usr/local/lib/python3.6/site-packages/social_django/fields.py:94: [C0305(trailing-newlines), ] Trailing newlines
+/usr/local/lib/python3.6/site-packages/social_django/fields.py:15: [W0104(pointless-statement), ] Statement seems to have no effect
+/usr/local/lib/python3.6/site-packages/social_django/fields.py:24: [E0611(no-name-in-module), ] No name 'SubfieldBase' in module 'django.db.models'
+/usr/local/lib/python3.6/site-packages/social_django/fields.py:3: [C0411(wrong-import-order), ] standard import "import functools" should be placed before "import six"
+/usr/local/lib/python3.6/site-packages/social_django/fields.py:14: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module social_django.middleware
+/usr/local/lib/python3.6/site-packages/social_django/middleware.py:26: [R1710(inconsistent-return-statements), SocialAuthExceptionMiddleware.process_exception] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/social_django/middleware.py:50: [R1710(inconsistent-return-statements), SocialAuthExceptionMiddleware.raise_exception] Either all return statements in a function should return an expression, or none of them should.
+************* Module social_django.models
+/usr/local/lib/python3.6/site-packages/social_django/models.py:2: [W0611(unused-import), ] Unused import six
+************* Module social_django.storage
+/usr/local/lib/python3.6/site-packages/social_django/storage.py:12: [W0223(abstract-method), DjangoUserMixin] Method 'user_model' is abstract in class 'UserMixin' but is not overridden
+/usr/local/lib/python3.6/site-packages/social_django/storage.py:12: [W0223(abstract-method), DjangoUserMixin] Method 'username_max_length' is abstract in class 'UserMixin' but is not overridden
+/usr/local/lib/python3.6/site-packages/social_django/storage.py:87: [W0221(arguments-differ), DjangoUserMixin.get_user] Parameters differ from overridden 'get_user' method
+/usr/local/lib/python3.6/site-packages/social_django/storage.py:111: [W0622(redefined-builtin), DjangoUserMixin.get_social_auth_for_user] Redefining built-in 'id'
+/usr/local/lib/python3.6/site-packages/social_django/storage.py:155: [W1505(deprecated-method), DjangoAssociationMixin.store] Using deprecated method encodestring()
+/usr/local/lib/python3.6/site-packages/social_django/storage.py:194: [W0223(abstract-method), BaseDjangoStorage] Method 'is_integrity_error' is abstract in class 'BaseStorage' but is not overridden
+/usr/local/lib/python3.6/site-packages/social_django/storage.py:4: [C0411(wrong-import-order), ] standard import "import sys" should be placed before "import six"
+************* Module social_django.strategy
+/usr/local/lib/python3.6/site-packages/social_django/strategy.py:63: [R1710(inconsistent-return-statements), DjangoStrategy.request_host] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/social_django/strategy.py:112: [C1801(len-as-condition), DjangoStrategy.clean_authenticate_args] Do not use `len(SEQUENCE)` to determine if a sequence is empty
+/usr/local/lib/python3.6/site-packages/social_django/strategy.py:131: [R1705(no-else-return), DjangoStrategy.build_absolute_uri] Unnecessary "else" after "return"
+************* Module social_django.urls
+/usr/local/lib/python3.6/site-packages/social_django/urls.py:9: [R1706(consider-using-ternary), ] Consider using ternary ('/' if getattr(settings, setting_name('TRAILING_SLASH'), True) else '')
+************* Module social_django.utils
+/usr/local/lib/python3.6/site-packages/social_django/utils.py:31: [W0621(redefined-outer-name), psa] Redefining name 'load_strategy' from outer scope (line 22)
+************* Module social_django.migrations.0004_auto_20160423_0400
+/usr/local/lib/python3.6/site-packages/social_django/migrations/0004_auto_20160423_0400.py:4: [W0611(unused-import), ] Unused models imported from django.db
+************* Module BlastOffEnterprise.auth0backend
+BlastOffEnterprise/auth0backend.py:5: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+BlastOffEnterprise/auth0backend.py:6: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+BlastOffEnterprise/auth0backend.py:7: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+BlastOffEnterprise/auth0backend.py:8: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+BlastOffEnterprise/auth0backend.py:9: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+      ('picture','picture')
+      ^|
+BlastOffEnterprise/auth0backend.py:9: [C0326(bad-whitespace), ] Exactly one space required after comma
+      ('picture','picture')
+                ^
+BlastOffEnterprise/auth0backend.py:12: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+BlastOffEnterprise/auth0backend.py:13: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+BlastOffEnterprise/auth0backend.py:15: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+BlastOffEnterprise/auth0backend.py:16: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+BlastOffEnterprise/auth0backend.py:18: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+BlastOffEnterprise/auth0backend.py:18: [C0326(bad-whitespace), ] Exactly one space required after comma
+   def get_user_id(self,details,response):
+                       ^
+BlastOffEnterprise/auth0backend.py:18: [C0326(bad-whitespace), ] Exactly one space required after comma
+   def get_user_id(self,details,response):
+                               ^
+BlastOffEnterprise/auth0backend.py:19: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+BlastOffEnterprise/auth0backend.py:21: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+BlastOffEnterprise/auth0backend.py:22: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+BlastOffEnterprise/auth0backend.py:23: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+BlastOffEnterprise/auth0backend.py:24: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+BlastOffEnterprise/auth0backend.py:25: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+BlastOffEnterprise/auth0backend.py:27: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+BlastOffEnterprise/auth0backend.py:4: [W0223(abstract-method), Auth0] Method 'auth_html' is abstract in class 'BaseAuth' but is not overridden
+************* Module BlastOffEnterprise.filter
+BlastOffEnterprise/filter.py:10: [C0304(missing-final-newline), ] Final newline missing
+BlastOffEnterprise/filter.py:10: [C0326(bad-whitespace), ] No space allowed after bracket
+        fields = [ 'first_name', 'last_name', ]
+                 ^
+BlastOffEnterprise/filter.py:3: [C0411(wrong-import-order), ] third party import "import django_filters" should be placed before "from .models import Employees"
+************* Module BlastOffEnterprise.settings
+BlastOffEnterprise/settings.py:75: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+   'BlastOffEnterprise.auth0backend.Auth0',
+   ^|
+BlastOffEnterprise/settings.py:76: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+   'django.contrib.auth.backends.ModelBackend'
+   ^|
+BlastOffEnterprise/settings.py:109: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+       'ENGINE': 'django.db.backends.mysql',
+       ^|
+BlastOffEnterprise/settings.py:110: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+       'NAME': 'EMPLOYEES',
+       ^|
+BlastOffEnterprise/settings.py:111: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+       'USER': 'root',
+       ^|
+BlastOffEnterprise/settings.py:112: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+       'PASSWORD': '',
+       ^|
+BlastOffEnterprise/settings.py:113: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+       'HOST': 'localhost',
+       ^|
+BlastOffEnterprise/settings.py:114: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+       'PORT': '3306',
+       ^|
+************* Module BlastOffEnterprise.urls
+BlastOffEnterprise/urls.py:18: [W0404(reimported), ] Reimport 'include' (imported line 17)
+BlastOffEnterprise/urls.py:19: [W0611(unused-import), ] Unused TemplateView imported from django.views.generic.base
+************* Module BlastOffEnterprise.views
+BlastOffEnterprise/views.py:15: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+       # 'picture': auth0user.extra_data['picture']
+       ^|
+BlastOffEnterprise/views.py:17: [C0303(trailing-whitespace), ] Trailing whitespace
+BlastOffEnterprise/views.py:19: [C0326(bad-whitespace), ] Exactly one space required after assignment
+    employee_serialize =  serializers.serialize("json", employeeq)
+                       ^
+BlastOffEnterprise/views.py:39: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+def empprofile(request, emp_no = None):
+                               ^
+BlastOffEnterprise/views.py:47: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        manager = models.Departments.objects.filter(deptemp = emp_no).values('deptmanager')
+                                                            ^
+BlastOffEnterprise/views.py:62: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+def depprofile(request, dept_no = None):
+                                ^
+BlastOffEnterprise/views.py:67: [C0326(bad-whitespace), ] Exactly one space required after comma
+        for d in range(0,len(department)):
+                        ^
+BlastOffEnterprise/views.py:68: [C0326(bad-whitespace), ] No space allowed after keyword argument assignment
+            employees.append(models.Employees.objects.filter(emp_no= department[d]['deptemp']).values('first_name', 'last_name'))
+                                                                   ^
+BlastOffEnterprise/views.py:78: [C0305(trailing-newlines), ] Trailing newlines
+BlastOffEnterprise/views.py:40: [R1705(no-else-return), empprofile] Unnecessary "else" after "return"
+BlastOffEnterprise/views.py:60: [E1120(no-value-for-parameter), empprofile] No value for argument 'template_name' in function call
+BlastOffEnterprise/views.py:63: [R1705(no-else-return), depprofile] Unnecessary "else" after "return"
+BlastOffEnterprise/views.py:67: [C0200(consider-using-enumerate), depprofile] Consider using enumerate instead of iterating with range and len
+BlastOffEnterprise/views.py:76: [E1120(no-value-for-parameter), depprofile] No value for argument 'template_name' in function call
+BlastOffEnterprise/views.py:66: [W0612(unused-variable), depprofile] Unused variable 'managers'
+BlastOffEnterprise/views.py:1: [W0611(unused-import), ] Unused redirect imported from django.shortcuts
+BlastOffEnterprise/views.py:4: [C0411(wrong-import-order), ] third party import "from django.core import serializers" should be placed before "from BlastOffEnterprise import models"
+BlastOffEnterprise/views.py:6: [C0411(wrong-import-order), ] standard import "import json" should be placed before "from django.shortcuts import render, redirect"
+BlastOffEnterprise/views.py:4: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module django_jenkins.apps
+/usr/local/lib/python3.6/site-packages/django_jenkins/apps.py:20: [W0105(pointless-string-statement), JenkinsConfig.__init__] String statement has no effect
+************* Module django_jenkins.runner
+/usr/local/lib/python3.6/site-packages/django_jenkins/runner.py:103: [W0612(unused-variable), EXMLTestResult._add_tb_to_test] Unused variable 'tb'
+/usr/local/lib/python3.6/site-packages/django_jenkins/runner.py:29: [W0201(attribute-defined-outside-init), EXMLTestResult.addSuccess] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django_jenkins/runner.py:33: [W0201(attribute-defined-outside-init), EXMLTestResult.addFailure] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django_jenkins/runner.py:39: [W0201(attribute-defined-outside-init), EXMLTestResult.addError] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django_jenkins/runner.py:45: [W0201(attribute-defined-outside-init), EXMLTestResult.addUnexpectedSuccess] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django_jenkins/runner.py:51: [W0201(attribute-defined-outside-init), EXMLTestResult.addSkip] Attribute 'testcase' defined outside __init__
+/usr/local/lib/python3.6/site-packages/django_jenkins/runner.py:57: [W0201(attribute-defined-outside-init), EXMLTestResult.addExpectedFailure] Attribute 'testcase' defined outside __init__
+************* Module django_jenkins.management.commands.jenkins
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:55: [R1707(trailing-comma-tuple), ] Disallow trailing comma tuple
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:58: [R1707(trailing-comma-tuple), ] Disallow trailing comma tuple
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:61: [R1707(trailing-comma-tuple), ] Disallow trailing comma tuple
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:65: [R1707(trailing-comma-tuple), ] Disallow trailing comma tuple
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:69: [R1707(trailing-comma-tuple), ] Disallow trailing comma tuple
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:72: [R1707(trailing-comma-tuple), ] Disallow trailing comma tuple
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:13: [W0621(redefined-outer-name), get_runner] Redefining name 'settings' from outer scope (line 7)
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:54: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--output-dir', dest='output_dir', default='reports', help='Report files directory'), )" is assigned to nothing
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:56: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--enable-coverage', action='store_true', default=False, help='Measure code coverage'), )" is assigned to nothing
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:59: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--debug', action='store_true', dest='debug', default=False, help='Do not intercept stdout and stderr, friendly for console debuggers'), )" is assigned to nothing
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:62: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--coverage-rcfile', dest='coverage_rcfile', default='', help='Specify configuration file.'), )" is assigned to nothing
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:66: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--coverage-format', dest='coverage_format', default='xml', help='Specify coverage output formats html,xml,bin'), )" is assigned to nothing
+/usr/local/lib/python3.6/site-packages/django_jenkins/management/commands/jenkins.py:70: [W0106(expression-not-assigned), Command.add_arguments] Expression "(parser.add_argument('--coverage-exclude', action='append', default=[], dest='coverage_excludes', help='Module name to exclude'), )" is assigned to nothing
+************* Module django_jenkins.tasks.run_flake8
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/run_flake8.py:82: [R1710(inconsistent-return-statements), Reporter.get_config_path] Either all return statements in a function should return an expression, or none of them should.
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/run_flake8.py:3: [C0411(wrong-import-order), ] standard import "import sys" should be placed before "import pep8"
+************* Module django_jenkins.tasks.run_pep8
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/run_pep8.py:19: [R1707(trailing-comma-tuple), ] Disallow trailing comma tuple
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/run_pep8.py:18: [W0106(expression-not-assigned), Reporter.add_arguments] Expression "(parser.add_argument('--pep8-ignore', dest='pep8-ignore', help='skip errors and warnings (e.g. E4,W)'), )" is assigned to nothing
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/run_pep8.py:30: [E0213(no-self-argument), Reporter.run.JenkinsReport.error] Method should have "self" as first argument
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/run_pep8.py:63: [R1710(inconsistent-return-statements), Reporter.get_config_path] Either all return statements in a function should return an expression, or none of them should.
+************* Module django_jenkins.tasks.run_pyflakes
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/run_pyflakes.py:27: [R1702(too-many-nested-blocks), Reporter.run] Too many nested blocks (6/5)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/run_pyflakes.py:30: [W0612(unused-variable), Reporter.run] Unused variable 'dirnames'
+************* Module django_jenkins.tasks.with_coverage
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:56: [C0325(superfluous-parens), ] Unnecessary parens after 'not' keyword
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:57: [C0325(superfluous-parens), ] Unnecessary parens after 'not' keyword
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.options)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.models -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.options)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.auth -> django.contrib.auth.models)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.options -> django.contrib.admin.widgets -> django.contrib.admin.views.main)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.options -> django.contrib.admin.checks -> django.contrib.admin.sites)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.auth.decorators -> django.contrib.auth.views)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.checks -> django.contrib.admin.options)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.actions -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.options -> django.contrib.admin.checks -> django.contrib.admin.sites)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.options -> django.contrib.admin.checks -> django.contrib.admin.sites)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.decorators -> django.contrib.admin.sites)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.decorators)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.options -> django.contrib.admin.templatetags.admin_urls)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.decorators -> django.contrib.admin.sites -> django.contrib.admin.actions -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.decorators -> django.contrib.admin.sites -> django.contrib.admin.actions -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.options -> django.contrib.admin.checks)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.options -> django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.decorators -> django.contrib.admin.sites -> django.contrib.admin.actions -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.helpers -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main -> django.contrib.admin.options)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin -> django.contrib.admin.filters -> django.contrib.admin.utils -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.views.main)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.helpers -> django.contrib.admin.templatetags.admin_list -> django.contrib.admin.templatetags.admin_urls -> django.contrib.admin.options)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.admin.templatetags.admin_list -> django.contrib.admin.templatetags.admin_urls -> django.contrib.admin.utils)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0401(cyclic-import), ] Cyclic import (django.contrib.sessions.backends.db -> django.contrib.sessions.models)
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django_jenkins.tasks.run_flake8:79
+==django_jenkins.tasks.run_pep8:60
+        output.close()
+
+    def get_config_path(self, options):
+        if options['pep8-rcfile']:
+            return options['pep8-rcfile']
+
+        rcfile = getattr(settings, 'PEP8_RCFILE', None)
+        if rcfile:
+            return rcfile
+
+        if os.path.exists('tox.ini'):
+            return 'tox.ini'
+
+        if os.path.exists('setup.cfg'):
+            return 'setup.cfg'
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django_jenkins.tasks.run_flake8:46
+==django_jenkins.tasks.run_pep8:36
+        config_file = self.get_config_path(options)
+        if config_file is not None:
+            pep8_options['config_file'] = config_file
+
+        set_option(pep8_options, 'exclude', options['pep8-exclude'], config_file,
+                   default=pep8.DEFAULT_EXCLUDE + ",south_migrations", split=',')
+
+        set_option(pep8_options, 'select', options['pep8-select'], config_file, split=',')
+
+        set_option(pep8_options, 'ignore', options['pep8-ignore'], config_file, split=',')
+
+        set_option(pep8_options, 'max_line_length', options['pep8-max-line-length'], config_file,
+                   default=pep8.MAX_LINE_LENGTH)
+
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django.contrib.sessions.backends.cache:13
+==django.contrib.sessions.backends.cached_db:19
+    cache_key_prefix = KEY_PREFIX
+
+    def __init__(self, session_key=None):
+        self._cache = caches[settings.SESSION_CACHE_ALIAS]
+        super().__init__(session_key)
+
+    @property
+    def cache_key(self):
+        return self.cache_key_prefix + self._get_or_create_session_key()
+
+    def load(self):
+        try:
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django_jenkins.tasks.run_csslint:1
+==django_jenkins.tasks.run_scsslint:1
+import os
+import subprocess
+import codecs
+
+from django.conf import settings
+from django_jenkins.tasks import static_files_iterator
+
+
+class Reporter(object):
+    def add_arguments(self, parser):
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django_jenkins.tasks.run_flake8:25
+==django_jenkins.tasks.run_pep8:10
+        parser.add_argument("--pep8-exclude",
+                            dest="pep8-exclude",
+                            help="exclude files or directories which match these "
+                            "comma separated patterns (default: %s)" %
+                            (pep8.DEFAULT_EXCLUDE + ",south_migrations"))
+        parser.add_argument("--pep8-select", dest="pep8-select",
+                            help="select errors and warnings (e.g. E,W6)")
+        parser.add_argument("--pep8-ignore", dest="pep8-ignore",
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django.contrib.auth.migrations.0007_alter_validators_add_error_messages:8
+==django.contrib.auth.migrations.0008_alter_user_username_max_length:8
+    ]
+
+    operations = [
+        migrations.AlterField(
+            model_name='user',
+            name='username',
+            field=models.CharField(
+                error_messages={'unique': 'A user with that username already exists.'},
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django.contrib.sessions.backends.cache:42
+==django.contrib.sessions.backends.file:108
+            self._session_key = self._get_new_session_key()
+            try:
+                self.save(must_create=True)
+            except CreateError:
+                continue
+            self.modified = True
+            return
+/usr/local/lib/python3.6/site-packages/django_jenkins/tasks/with_coverage.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==django.contrib.admin.options:597
+==django.contrib.admin.widgets:25
+    @property
+    def media(self):
+        extra = '' if settings.DEBUG else '.min'
+        js = [
+            'vendor/jquery/jquery%s.js' % extra,
+            'jquery.init.js',
+            'core.js',
+
+------------------------------------------------------------------
+Your code has been rated at 9.18/10 (previous run: 9.18/10, -0.00)
+
