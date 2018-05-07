@@ -25,12 +25,5 @@ node {
         testsError = err
         currentBuild.result = 'FAILURE'
     }
-    finally {
-        junit 'reports/junit.xml'
-
-        if (testsError) {
-            throw testsError
-        }
-    }
-    }
+   
 }
