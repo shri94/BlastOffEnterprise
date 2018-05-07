@@ -11,9 +11,8 @@
       {{ filter.form.as_p }}
       <button type="submit">Search</button>
     </form>
-
   <ul>
-  {% for employee in filter.qs %}
+  {% for employee in filter.qs|slice:":1000" %}
     <li>{{ employee.first_name }} - {{ employee.last_name }}</li>
   {% endfor %}
   </ul>
