@@ -11,18 +11,14 @@ node {
     }
     stage ("Install Application Dependencies") {
     sh '''
-        source ../bin/activate
         python3 -m pip install -r requirements.txt
-        deactivate
        '''
     }
     stage ("Run Unit/Integration Tests") {
     def testsError = null
     try {
         sh '''
-            source ../bin/activate
             python3 ./manage.py jenkins
-            deactivate
            '''
     }
     catch(err) {
