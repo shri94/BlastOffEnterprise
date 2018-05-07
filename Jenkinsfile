@@ -18,19 +18,13 @@ node {
     def testsError = null
     try {
         sh '''
-            python3 ./manage.py jenkins
+            python3 ./manage.py test
            '''
     }
     catch(err) {
         testsError = err
         currentBuild.result = 'FAILURE'
     }
-    finally {
-        junit 'reports/junit.xml'
-
-        if (testsError) {
-            throw testsError
-        }
-    }
-    }
+}
+   
 }
