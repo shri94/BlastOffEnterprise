@@ -25,5 +25,6 @@ node {
         testsError = err
         currentBuild.result = 'FAILURE'
     }
+}
    
 }
