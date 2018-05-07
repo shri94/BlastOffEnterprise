@@ -11,7 +11,7 @@ node {
     }
     stage ("Install Application Dependencies") {
     sh '''
-        source bin/activate
+        source ../bin/activate
         python3 -m pip install -r requirements.txt
         deactivate
        '''
