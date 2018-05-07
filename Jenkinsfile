@@ -26,7 +26,7 @@ node {
         currentBuild.result = 'FAILURE'
     }
     finally {
-        junit '**/reports/junit.xml'
+        junit '**/reports/TEST-*.xml'
 
         if (testsError) {
             throw testsError
