@@ -7,4 +7,4 @@ class EmployeeFilter(django_filters.FilterSet):
     last_name = django_filters.CharFilter(lookup_expr='icontains')
     class Meta:
         model = Employees
-        fields = [ 'first_name', 'last_name', ]
+        fields = ['emp_no', 'first_name', 'last_name', 'gender','hire_date']
