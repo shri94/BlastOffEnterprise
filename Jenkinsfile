@@ -18,13 +18,20 @@ node {
     def testsError = null
     try {
         sh '''
-            python3 ./manage.py test
+            python3 ./manage.py jenkins --enable-coverage
            '''
     }
     catch(err) {
         testsError = err
         currentBuild.result = 'FAILURE'
     }
+    finally {
+        junit '**/reports/TEST-*.xml'
+
+        if (testsError) {
+            throw testsError
+        }
+     } 
 }
    
 }
