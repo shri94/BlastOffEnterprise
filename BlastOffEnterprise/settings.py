@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'social_django',
     'BlastOffEnterprise',
-    'django_jenkins'
+    'django_jenkins',
 ]
 
 JENKINS_TASKS = [
@@ -107,13 +107,15 @@ WSGI_APPLICATION = 'BlastOffEnterprise.wsgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'EMPLOYEES',
+       'NAME': 'employees',
        'USER': 'root',
        'PASSWORD': '',
        'HOST': 'localhost',
        'PORT': '3306',
-    }
-
+       'TEST': {
+            'NAME': 'testemployees',
+            },
+       }
 }
 
 
