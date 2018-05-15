@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-theme.min.css">
     <style>
             nav {
                 overflow: auto;
@@ -76,7 +78,7 @@
         <ul>
             <li id="block1" class="{% if active_tab == 'home' %}active{% endif %} loggedin"><a href="/">Home</a></li>
             <li id="block2" class="{% if active_tab == 'about' %}active{% endif %} loggedin"><a href="/search">Employee Search</a></li>
-            <li id="block3" class="profile loggedin">{{user.username}}</li>
+            <li id="block3" class="{% if active_tab == 'dashboard' %}active{% endif %} loggedin"><a href="/dashboard">{{user.username}}</a></li>
             <li id="block4" class="{% if active_tab == 'login' %}active{% endif %} loggedin"><a href="/logout">Logout</a></li>
          </ul>
     </nav>

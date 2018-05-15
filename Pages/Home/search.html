@@ -13,7 +13,7 @@
     </form>
   <ul>
   {% for employee in filter.qs|slice:":5000" %}
-    <li>{{ employee.pk }} - {{ employee.first_name }} - {{ employee.last_name }} - {{ employee.gender }} - {{ employee.hire_date }}</li>
+    <li> <a href = {% url 'empprofile' employee.pk %}> {{ employee.pk }} - {{ employee.first_name }} - {{ employee.last_name }} - {{ employee.gender }} - {{ employee.hire_date }}</a></li>
   {% endfor %}
   </ul>
 {% endblock %}

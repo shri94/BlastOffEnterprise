@@ -11,7 +11,7 @@
 <body>
 	<div class="container">
 		<h1> Employee Profile </h1>
-		<h3>{{employee.first_name}}, {{employee.last_name}} - {% for t in title %} {{t.fields.title}}| {%endfor%}</h3>
+		<h3>{{employee.first_name}}, {{employee.last_name}} - {% for t in title %} |{{t.fields.title}} {%endfor%}</h3>
 		<div class="container">
 			<h3>Personal Information</h3>
 			<h4>Gender : {{employee.gender}}</h4>
@@ -20,11 +20,12 @@
 		</div>
 		<div class="container">
 			<h3>Department</h3>
-			<h4>Department: {{department.dept_name}}</h4>
+			<h4>Department: <a href="{% url 'depprofile' department.pk %}"> {{department.dept_name}}</a></h4>
 			<h4>Manager(s):<br /> {% for man in managers %}
 				<a href= "{% url 'empprofile' man.pk %}"> {{man.first_name}} {{man.last_name}}</a> <br />
 				{%endfor%}
 			</h4>
+			<h4></h4>
 		</div>
 		<div class="container">
 			<h3>Salary History</h3>

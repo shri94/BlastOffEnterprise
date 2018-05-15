@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from BlastOffEnterprise import models
 from django.core import serializers
 from .filter import EmployeeFilter
@@ -15,13 +16,17 @@ def dashboard(request):
        # 'picture': auth0user.extra_data['picture']
     }
     
-    employeeq = models.Employees.objects.all()[:10]
+    employeeq = models.Employees.objects.all()[:500]
+    paginator = Paginator(employeeq, 25)
+
+    page = request.GET.get('page')
+    employees = paginator.get_page(page)
     employee_serialize =  serializers.serialize("json", employeeq)
 
     return render(request, 'dashboard.html', {
         'auth0User': auth0user,
         'userdata': json.dumps(userdata, indent=4),
-        'employeeq': json.loads(employee_serialize)
+        'employees': employees
     })
 
 def home(request):
@@ -58,5 +63,22 @@ def empprofile(request, emp_no = None):
             })
     else:
         return render('Employee Missing!')
+
+def depprofile(request, dept_no = None):
+    if models.Departments.objects.get(dept_no=dept_no):
+        department = models.Departments.objects.filter(dept_no=dept_no).values('dept_name', 'deptemp', 'deptmanager')[:300]
+        employees = []
+        managers = []
+        for d in range(0,len(department)):
+            employees.append(models.Employees.objects.get(emp_no= department[d]['deptemp']))
+            managers.append(models.Employees.objects.get(emp_no= department[d]['deptmanager']))
+        return render(request, 'department.html', {
+            'department': department,
+            'employees': employees
+
+
+            })
+    else:
+        return render('No Department found!')
 
 

@@ -23,11 +23,10 @@ cursor:pointer;
 <div class="logged-in-box auth0-box logged-in">
     <img class="avatar" src="{{ auth0User.extra_data.picture }}"/>
     <h2>Welcome {{ user.username }}</h2>
-    <pre>{{ userdata }}</pre>
 </div>
     <div class="card mb-3">
         <div class="card-header">
-          <i class="fa fa-table"></i> Data Table Example</div>
+          <i class="fa fa-table"></i> Employee Data</div>
         <div class="card-body">
           <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -52,14 +51,14 @@ cursor:pointer;
                 </tr>
               </tfoot>
 	<tbody>
-       	{% for employee in employeeq %}
+       	{% for employee in employees %}
     <tr class = "clickable-row" data-href="{% url 'empprofile' employee.pk %}"> 
     	<td scope="row">{{ employee.pk}}  </td> 
-   		<td scope="row">{{ employee.fields.first_name}} </td> 
-   		<td scope="row">{{ employee.fields.last_name}} </td> 
-   		<td scope="row">{{ employee.fields.gender}} </td> 
-   		<td scope="row">{{ employee.fields.birth_date}} </td>
-   		<td scope="row">{{ employee.fields.hire_date}} </td>
+   		<td scope="row">{{ employee.first_name}} </td> 
+   		<td scope="row">{{ employee.last_name}} </td> 
+   		<td scope="row">{{ employee.gender}} </td> 
+   		<td scope="row">{{ employee.birth_date}} </td>
+   		<td scope="row">{{ employee.hire_date}} </td>
    	</tr>
     	{% empty %}
     <tr>
@@ -70,6 +69,23 @@ cursor:pointer;
     </tr>
     </tbody>
 	</table>
+</div>
+<div class="pagination">
+    <span class="step-links">
+        {% if employees.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ employees.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ employees.number }} of {{ employees.paginator.num_pages }}.
+        </span>
+
+        {% if employees.has_next %}
+            <a href="?page={{ employees.next_page_number }}">next</a>
+            <a href="?page={{ employees.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
 </div>
 </div>
 </div>
